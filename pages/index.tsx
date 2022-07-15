@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 import { Layout } from '../src/Layout'
-import { Deposit } from '../src/Deposit'
+import { Create } from '../src/CreateDeposit'
 
 const Home: NextPage = () => {
   return (
     <Layout title="Locker">
-      <Deposit />
+      <Create />
     </Layout>
   )
 }
